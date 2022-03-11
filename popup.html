@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>url-qrcode</title>
+    <style>
+      .info {
+        text-align: center;
+        line-height: 30px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        width: 148px;
+        margin: auto;
+      }
+      #icon {
+        vertical-align: middle;
+        max-width: 40px;
+      }
+      .tip {
+        text-align: center;
+        color: #ccc;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="info">
+      <img src="" alt="" id="icon" />
+      <span id="title"></span>
+    </div>
+    <canvas id="canvas"></canvas>
+    <div class="tip">
+      <div>大头大头，下雨不愁</div>
+      <div>啦啦啦....</div>
+      <div>^_^ ^_^</div>
+    </div>
+    <script src="./script/qrcode.js"></script>
+    <script src="./popup.js"></script>
+  </body>
+</html>

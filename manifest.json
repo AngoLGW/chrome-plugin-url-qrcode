@@ -1,0 +1,14 @@
+{
+  "name": "chrome-plugin-url-qrcode",
+  "description": "Build an Extension!",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["activeTab"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "icons": {
+    "32": "icon.png"
+  }
+}
