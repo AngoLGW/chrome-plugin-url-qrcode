@@ -4,7 +4,8 @@
   "description": "",
   "main": "popup.js",
   "scripts": {
-    "test": "echo \"husky is success!\"",
+    "husky-commit": "echo \"husky commit is success!\"",
+    "husky-push": "echo \"husky push is success!\"",
     "prepare": "husky install"
   },
   "repository": {
